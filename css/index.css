@@ -21,7 +21,7 @@ html {
 /* Menú nav */
 nav {
   margin-top: 1vh;
-  background-color: rgba(85, 107, 47, 0.514);
+  background-color: #462aa496;
   width: 90vw;
   max-width: 90vw;
   display: flex;
@@ -39,16 +39,49 @@ ul {
 }
 
 li {
-  border: solid 3px white;
+  border: solid 2px white;
   padding: 25px;
   margin: auto;
-  background-image: url("../img/armas.avif");
-  background-size: contain;
+  width: 10vw;
+  height: 2vh;
+  text-align: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
+/*Imagenes fondo nav*/
+
+#armas {
+  background-image: url("../img/armas.avif");
+  background-size: cover;
+}
+
+#municion {
+  background-image: url("../img/escopeta.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#ropa {
+  background-image: url("../img/canana.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#ofertas {
+  background-image: url("../img/OFERTAS.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/*Nav hover*/
 li:hover {
   box-shadow: 2px 4px 6px black;
-  font-style: italic;
+  text-decoration: 2px white;
+  text-transform: uppercase;
 }
 
 li a {
@@ -63,4 +96,12 @@ li a {
   width: 100px;
   background-size: cover;
   background-position: center;
+}
+
+/*Section*/
+section {
+  background-color: #3981ed;
+  margin-top: 1vh;
+  height: 50vh;
+  max-height: 50vh;
 }
